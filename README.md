@@ -21,11 +21,11 @@ GitHub provides access to top-tier models including:
 
 ## Sections:
 
-* **RAG:** RAG pipeline for an FAQ dataset. Used two types of searches: minsearch (similar to Elasticsearch) and SQLite search. The former one has to be loaded for every restart and is in-memory. The later one is loaded once (eg. faq.db) and this separates ingestion from querying. 
+* **RAG:** RAG pipeline for an FAQ dataset. Used two types of searches: minsearch (similar to Elasticsearch) and SQLite search. The former one has to be loaded for every restart and is in-memory. The later one is loaded once (eg. faq.db) and this separates ingestion from querying.
+
+(* in progress *)
 
 ### Setting up the GitHub Token for LLM Access
-
-Follow these steps to securely configure your environment and access the GitHub-hosted models:
 
 1. **Generate a Token:** Get a classic PAT (Personal Access Token) from your GitHub account developer settings.
 2. **Secure the Token:** Save it in a `.env` file or another secure location on your local machine. 
