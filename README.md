@@ -1,8 +1,8 @@
-# LLM Application with RAG, Vector Search and Agents
+# LLM projects with RAG, Vector Search and Agents
 
-My version of building LLM applications using **RAG (Retrieval-Augmented Generation)**, **Vector Search**, **Agents** and other AI Engineering stuffs. 
+My version of building LLM projects using **RAG (Retrieval-Augmented Generation)**, **Vector Search**, **Agents** and other AI Engineering stuffs. 
 
-This project is built based on the curriculum and materials from the [DataTalksClub LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).
+This repo contains projects from the [DataTalksClub LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).
 
 ---
 
@@ -21,7 +21,7 @@ GitHub provides access to top-tier models including:
 
 ## Sections:
 
-* **RAG:** Built a RAG pipeline for an FAQ dataset. Used two types of searches: minsearch (similar to Elasticsearch) and SQLite search. The former one has to be loaded for every restart and is in-memory. The later one is loaded once (eg. faq.db) and this separates ingestion from querying. 
+* **RAG:** RAG pipeline for an FAQ dataset. Used two types of searches: minsearch (similar to Elasticsearch) and SQLite search. The former one has to be loaded for every restart and is in-memory. The later one is loaded once (eg. faq.db) and this separates ingestion from querying. 
 
 ### Setting up the GitHub Token for LLM Access
 
